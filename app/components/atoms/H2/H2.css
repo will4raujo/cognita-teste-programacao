@@ -1,0 +1,4 @@
+.subtitle {
+  @apply leading-[2.4rem] font-semibold size-[1.8rem] w-full;
+  @apply text-[var(--text-black)];
+}

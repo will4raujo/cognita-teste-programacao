@@ -1,0 +1,29 @@
+[
+  {
+    "id": "trail-1",
+    "title": "A primeira trilha",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": "O primeiro passo",
+        "content": "O conteúdo do primeiro passo"
+      },
+      {
+        "id": "step-2",
+        "title": "O segundo passo",
+        "content": "O Conteúdo do segundo passo"
+      }
+    ]
+  },
+  {
+    "id": "trail-2",
+    "title": "A Segunda trilha",
+    "steps": [
+      {
+        "id": "step-x",
+        "title": "O primeiro passo da segunda trilha",
+        "content": "O conteúdo do primeiro passo da segunda trilha"
+      }
+    ]
+  }
+]

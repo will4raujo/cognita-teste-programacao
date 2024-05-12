@@ -1,0 +1,5 @@
+.title {
+  @apply tracking-[-1%];
+  @apply text-[2.8rem] font-semibold leading-[4rem];
+  @apply text-[var(--text-black)];
+}

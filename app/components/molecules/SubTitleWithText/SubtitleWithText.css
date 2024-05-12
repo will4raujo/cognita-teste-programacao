@@ -1,0 +1,6 @@
+.subtitle-container {
+  @apply bg-[var(--bg-white)];
+  @apply flex flex-col gap-[.8rem];
+  @apply rounded-[.4rem] w-full p-[2.4rem];
+  @apply border-[1px] border-[var(--bg-white-100)]; 
+}

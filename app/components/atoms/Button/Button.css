@@ -1,0 +1,23 @@
+.default, .ghost {
+  @apply px-[2.6rem] py-[1.2rem] rounded-[1.2rem];
+  @apply font-semibold;
+  box-shadow: 0px 1px 2px -1px var(--text-black);
+}
+
+.default {
+  @apply bg-[var(--color-violet-200)] text-[var(--bg-white)];
+  
+}
+
+.default:hover{
+  @apply bg-[--bg-default-button-hover];
+}
+
+.ghost {
+  @apply bg-[var(--color-violet)] text-[var(--color-violet-200)];
+  @apply rounded-[1.2rem] border-[1px] border-[var(--color-violet-100)];
+}
+
+.ghost:hover{
+  @apply bg-[--color-violet-100];
+}

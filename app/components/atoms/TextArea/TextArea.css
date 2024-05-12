@@ -1,0 +1,21 @@
+.text-area-wrapper {
+  @apply w-full;
+  @apply flex flex-col gap-1;
+}
+
+.text-area-label {
+  @apply font-semibold text-[1.4rem] text-[var(--text-base)] leading-[2.4rem];
+}
+
+.text-area {
+  @apply w-full h-[10rem];
+  @apply bg-[var(--bg-gray)];
+  @apply px-[1.6rem] py-[1.2rem];
+  
+  @apply rounded-[12px];
+  outline: var(--color-white-200) 1px solid;
+  
+  @apply font-semibold leading-[2.4rem] text-[var(--text-base)];
+
+  @apply resize-none;
+}

@@ -1,0 +1,22 @@
+.modal-container {
+  @apply z-50 fixed;
+  @apply w-screen h-screen top-0 left-0;
+  @apply flex items-center justify-center;
+  background-color: rgba(0, 0, 0 , 0.64);
+}
+
+.modal-content-wrapper {
+  @apply w-[68rem];
+  @apply bg-[var(--bg-white)];
+  @apply rounded-[24px] p-[4.8rem];
+  @apply flex flex-col gap-[4rem];
+}
+
+.modal-content-wrapper .inputs-wrapper {
+  @apply flex flex-col gap-[1.6rem];
+
+}
+
+.action-buttons {
+  @apply flex justify-end gap-[2.4rem];
+}
